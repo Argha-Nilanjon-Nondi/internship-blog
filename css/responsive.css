@@ -38,12 +38,12 @@
         display: flex;
         margin-top: 4rem;
     }
-    .header-start input{
-      height:3rem;
+    .header-start input {
+        height: 3rem;
     }
     .post-overview {
         display: grid;
-    }    
+    }
     .footer-link {
         display: flex;
         justify-content: center;
@@ -59,14 +59,15 @@
     .footer-social li {
         margin: 0.4rem;
     }
-    
-    
-.footer-copyright ul {
-    flex-direction: column;
-}
-.footer-copyright li{
-  margin-top: 0.8rem;
-}
+    .footer-copyright ul {
+        flex-direction: column;
+    }
+    .footer-copyright li {
+        margin-top: 0.8rem;
+    }
+    .post-content {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width:500px) {

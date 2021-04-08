@@ -145,8 +145,8 @@ header {
     text-decoration: none;
 }
 
-.post-text a{
-  text-decoration: none;
+.post-text a {
+    text-decoration: none;
 }
 
 .post-text h4,
@@ -174,7 +174,6 @@ header {
     display: grid;
 }
 
-
 .short-post {
     display: grid;
     grid-template-columns: 8rem auto;
@@ -196,9 +195,10 @@ header {
     font-family: system-ui;
 }
 
-.short-post a{
-  text-decoration: none;
+.short-post a {
+    text-decoration: none;
 }
+
 
 /*welcome start*/
 
@@ -228,6 +228,65 @@ header {
 .welcome-img img {
     width: 100%;
     height: 23rem;
+}
+
+
+/*post start*/
+
+.post {
+    width: 88%;
+    margin: 0 auto;
+    background-color: #514747;
+    padding: 1rem 1.4rem;
+}
+
+.post-img {
+    width: 100%;
+    margin: 0 auto;
+    height: 28rem;
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-title {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1rem 0;
+}
+
+.post-content {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.post-content p::first-letter {
+    font-size: 1.9rem;
+}
+
+.post-mode {
+    margin: 1.7rem 0;
+    display: flex;
+}
+
+.post-mode button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
