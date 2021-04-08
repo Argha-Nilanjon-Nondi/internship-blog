@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        body {
+            background-color: rgb(139, 20, 250);
+        }
+        
+        .logo {
+            margin-top: 1rem;
+            margin-left: 3rem;
+        }
+        
+        .logo h1 {
+            color: white;
+            font-size: 4rem;
+        }
+        
+        .navigation {
+            display: flex;
+            list-style-type: none;
+            margin: 3rem 0;
+            justify-content: center;
+        }
+        
+        .link-item {
+            width: 13rem;
+            background: #1a1a1a;
+        }
+        
+        .link-item:hover {
+            transition: all .2s ease;
+            background: #333333;
+        }
+        
+        .link-item a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+            font: 1.5rem helvetica;
+            text-align: center;
+        }
+        
+        .navigation li:not(:first-child) {
+            border-left: 2px solid #ecf0f1;
+        }
+        
+        @media screen and (max-width:1100px) {
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+            .link-item {
+                width: 84%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <h1>Blogging</h1>
+    </div>
+
+    <nav>
+        <ul class="navigation">
+            <li class="link-item"><a href="#">Home</a></li>
+            <li class="link-item"><a href="#">Politices</a></li>
+            <li class="link-item"><a href="#">Entertainment</a></li>
+            <li class="link-item"><a href="#">Sport</a></li>
+            <li class="link-item"><a href="#">Contact</a></li>
+            <li class="link-item"><a href="#">About</a></li>
+
+        </ul>
+    </nav>
+</body>
+
+</html>
