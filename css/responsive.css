@@ -44,6 +44,9 @@
     .post-overview {
         display: grid;
     }
+    .post-box img{
+      height: 10rem;
+    }
     .footer-link {
         display: flex;
         justify-content: center;
