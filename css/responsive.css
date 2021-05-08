@@ -16,6 +16,9 @@
 }
 
 @media screen and (max-width:900px) {
+    .logo h1 {
+        font-size: 4rem;
+    }
     .blog {
         grid-template-columns: 1fr;
         grid-column-gap: 1rem;
@@ -42,10 +45,10 @@
         height: 3rem;
     }
     .post-overview {
-        display: grid;
+        display: none;
     }
-    .post-box img{
-      height: 10rem;
+    .post-box img {
+        height: 10rem;
     }
     .footer-link {
         display: flex;
